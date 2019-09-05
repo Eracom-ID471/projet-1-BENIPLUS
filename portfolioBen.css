@@ -1,0 +1,523 @@
+body{
+  background-color: white;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  grid-gap: 5px;
+}
+
+.formation{
+  font-size: 950px;
+  margin-top: -300px;
+  color:#e6e6ff
+}
+
+
+
+
+
+
+
+.neg7{
+
+  position: fixed;
+  width: 600px;
+  height: 600px;
+  mix-blend-mode:difference;
+
+
+
+}
+
+
+.neg{
+
+  position: fixed;
+  width: 1000px;
+  height: 1000px;
+  mix-blend-mode:difference;
+  margin-bottom: 1000px;
+
+
+}
+
+.neg2{
+
+  position: fixed;
+  width: 500px;
+  height: 500px;
+  mix-blend-mode:difference;
+
+
+
+
+}
+
+.neg3{
+
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode:difference;
+
+
+
+
+}
+
+
+
+
+
+.contact{
+  margin-top: -250px;
+}
+
+img{
+  margin-left: 400px;
+}
+
+
+img:hover{
+  mix-blend-mode:difference;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+/*** / sticky header **/
+
+
+
+
+
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr  ;
+  grid-gap: 10px;
+  grid-template-rows: ;
+  margin-top: 260px;
+}
+
+
+
+
+
+
+a {
+  color:#000;
+  text-decoration: none;
+  font-size: 50px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+h1{
+  font-family: 'Orbitron', sans-serif;
+  color:#e6e6ff;
+  margin-top: 27px;
+}
+
+
+h3{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 20px;
+    color:black;
+    margin-top: -19px;
+}
+
+h4{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 200px;
+    color:#e6e6ff;
+    margin-top: 120px;
+}
+
+h5{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 200px;
+    color:#e6e6ff;
+    margin-left: 37px;
+    margin-top: 5px;
+}
+
+a:hover {
+  color:#e6e6ff;
+
+
+
+}
+
+svg{
+  margin-top: 7px;
+}
+
+p {
+color: #6699ff;
+font-size: 11px;
+/* font-family: 'Roboto', sans-serif; */
+font-family: 'Orbitron', sans-serif;
+
+text-align: justify;
+margin-top: 170px;
+}
+
+
+
+
+
+
+.frat{
+  size: 50%;
+}
+
+.icon {
+  position: relative;
+  width: 60px;
+  height: 40px;
+  margin: 200px auto
+}
+
+.icon span {
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  left: 0;
+  background: 0;
+}
+svg#lettres {
+  overflow: visible;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
+svg#logo {
+  position: absolute;
+  width: 222px;
+  height: 222px;
+  top:77%;
+  left: 200%;
+
+}
+
+
+
+
+/* CAPITOL */
+
+#C {
+  transform-origin: center center;
+  animation: drunken 2s infinite alternate;
+}
+
+.blanc {
+  /* fill: #ffffff; */
+  fill:#6699ff;
+}
+@keyframes drunken {
+  from {
+    transform: translate(0,-20px);
+  }
+  to {
+    transform: ;
+  }
+}
+
+#A {
+  transform-origin: center center;
+  animation: drunken2 2s infinite alternate;
+}
+. {}
+@keyframes drunken2 {
+  from {
+    transform: translate(0,20px);
+  }
+  to {
+    transform: ;
+  }
+}
+
+#P {
+  transform-origin: center center;
+  animation: drunken3 2s infinite alternate;
+}
+.white {
+  #6699ff;
+}
+@keyframes drunken3 {
+  from {
+    transform: translate(0,-20px);
+  }
+  to {
+    transform: ;
+  }
+}
+
+#PI {
+  transform-origin: center center;
+  animation: drunken4 2s infinite alternate;
+}
+. {}
+@keyframes drunken4 {
+  from {
+    transform: translate(0,-20px);
+  }
+  to {
+    transform: ;
+  }
+}
+
+#PT {
+  transform-origin: center center;
+  animation: drunken5 2s infinite alternate;
+}
+. {}
+@keyframes drunken5 {
+  from {
+    transform: translate(0,-20px);
+  }
+  to {
+    transform: ;
+  }
+}
+
+#PO {
+  transform-origin: center center;
+  animation: drunken6 2s infinite alternate;
+}
+. {}
+@keyframes drunken6 {
+  from {
+    transform: translate(0,-30px);
+  }
+  to {
+    transform: ;
+  }
+}
+
+#L {
+  transform-origin: center center;
+  animation: drunken7 2s infinite alternate;
+}
+. {}
+@keyframes drunken7 {
+  from {
+    transform: translate(0,-20px);
+  }
+  to {
+    transform: ;
+  }
+}
+
+
+
+/* RECORDS */
+
+#PR {
+  transform-origin: center center;
+  animation: drunken9 2s infinite alternate;
+}
+. {}
+@keyframes drunken9 {
+  from {
+    transform: translate(0,10px);
+  }
+  to {
+    transform: ;
+  }
+}
+
+#E {
+  transform-origin: center center;
+  animation: drunken10 2s infinite alternate;
+}
+. {}
+@keyframes drunken10 {
+  from {
+    transform: translate(0,-20px);
+  }
+  to {
+    transform: ;
+  }
+}
+
+#TC {
+  transform-origin: center center;
+  animation: drunken11 2s infinite alternate;
+}
+. {}
+@keyframes drunken11 {
+  from {
+    transform: translate(0,10px);
+  }
+  to {
+    transform: ;
+  }
+}
+
+#TO {
+  transform-origin: center center;
+  animation: drunken12 2s infinite alternate;
+}
+. {}
+@keyframes drunken12 {
+  from {
+    transform: translate(0,-20px);
+  }
+  to {
+    transform: ;
+  }
+}
+
+#DR {
+  transform-origin: center center;
+  animation: drunken13 2s infinite alternate;
+}
+. {}
+@keyframes drunken13 {
+  from {
+    transform: translate(0,10px);
+  }
+  to {
+    transform: ;
+  }
+}
+
+#D {
+  transform-origin: center center;
+  animation: drunken14 2s infinite alternate;
+}
+. {}
+@keyframes drunken14 {
+  from {
+    transform: translate(0,-20px);
+  }
+  to {
+    transform: ;
+  }
+}
+
+#DS {
+  transform-origin: center center;
+  animation: drunken15 2s infinite alternate;
+}
+. {}
+@keyframes drunken15 {
+  from {
+    transform: translate(0,10px);
+  }
+  to {
+    transform: ;
+  }
+}
+
+/* OTISTIC */
+
+#DO {
+  transform-origin: center center;
+  animation: drunken8 2s infinite alternate;
+}
+. {}
+@keyframes drunken8 {
+  from {
+    transform: translate(-10px,-30px);
+  }
+  to {
+    transform: ;
+  }
+}
+
+#DT {
+  transform-origin: center center;
+  animation: drunken16 2s infinite alternate;
+}
+. {}
+@keyframes drunken16 {
+  from {
+    transform: translate(0,30px);
+  }
+  to {
+    transform: ;
+  }
+}
+
+#DI {
+  transform-origin: center center;
+  animation: drunken17 2s infinite alternate;
+}
+. {}
+@keyframes drunken17 {
+  from {
+    transform: translate(0,20px);
+  }
+  to {
+    transform: ;
+  }
+}
+
+#S {
+  transform-origin: center center;
+  animation: drunken18 2s infinite alternate;
+}
+. {}
+@keyframes drunken18 {
+  from {
+    transform: translate(0,-20px);
+  }
+  to {
+    transform: ;
+  }
+}
+
+#TT {
+  transform-origin: center center;
+  animation: drunken18 2s infinite alternate;
+}
+. {}
+@keyframes drunken18 {
+  from {
+    transform: translate(0,-20px);
+  }
+  to {
+    transform: ;
+  }
+}
+
+#TI {
+  transform-origin: center center;
+  animation: drunken19 2s infinite alternate;
+}
+. {}
+@keyframes drunken19 {
+  from {
+    transform: translate(0,20px);
+  }
+  to {
+    transform: ;
+  }
+}
+
+#DC {
+  transform-origin: center center;
+  animation: drunken19 2s infinite alternate;
+}
+. {}
+@keyframes drunken19 {
+  from {
+    transform: translate(0,20px);
+  }
+  to {
+    transform: ;
+  }
+}
